@@ -1,0 +1,285 @@
+$lightRed: darkred;
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3d3d3;
+  overflow-x: hidden;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: $lightRed;
+  }
+}
+
+#cm:hover {
+  background-color: blueviolet;
+}
+
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/conb.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#top {
+  h1 {
+    font-size: 110px;
+    text-shadow: 5px 5px 20px #000000;
+  }
+
+  p {
+    font-size: 50px;
+    text-shadow: 5px 5px 20px #000000;
+
+
+  }
+}
+
+#home {
+  box-shadow: 5px 9px 14px black;
+  font-family: 'Lobster', cursive;
+}
+
+/* about me section */
+#aboutfight {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  box-shadow: -1px 5px 24px 13px rgba(0, 0, 0, 0.93);
+}
+
+.aboutext {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+#myabout {
+  font-size: 38px;
+  padding-top: 20px;
+  padding-left: 5px;
+  font-family: 'Lobster', cursive;
+}
+
+// nav
+#myNav {
+  border-top: solid 1px rgb(78, 78, 78);
+  border-bottom: solid 1px rgb(78, 78, 78);
+  overflow: hidden;
+  z-index: 99;
+
+  .navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: white;
+    border-bottom: solid 2px white;
+    border-radius: 15%;
+  }
+
+}
+
+.nav-link {
+  color: darkgray;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+/* gallary */
+
+#galhead {
+  border-bottom: solid 3px rgb(122, 0, 0);
+  font-family: 'Lobster', cursive;
+  display: inline-block;
+  border-radius: 10%;
+  color: rgb(202, 202, 202);
+}
+
+.thumbnail {
+  box-shadow: -1px 5px 24px 13px rgba(0, 0, 0, 0.93);
+}
+
+#thumbnail1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+#photos {
+  .container {
+    margin-top: 50px;
+    color: darkgray;
+  }
+}
+
+/* stats */
+.card {
+  background-color: rgb(22, 22, 22);
+  border: solid 2px darkgrey;
+}
+
+#statsection {
+  h1 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 40px;
+    border-bottom: solid 3px rgb(68, 0, 0);
+    display: inline-block;
+    border-radius: 10%;
+    color: rgb(8, 8, 8)
+  }
+
+  .row {
+    font-size: 34px;
+    color: rgb(209, 209, 209);
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 5px 9px 14px black;
+  }
+
+  .card {
+    text-align: center;
+  }
+}
+
+#future {
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  border-bottom: solid 3px rgb(68, 0, 0);
+  display: inline-block;
+  border-radius: 10%;
+  color: rgb(8, 8, 8);
+}
+
+/* skills */
+.services-section {
+  background-color: rgb(34, 34, 34);
+
+  hr {
+    border-bottom: 2px solid $lightRed;
+    width: 42px;
+    margin-left: 0px;
+  }
+}
+
+
+.services-section {
+  .services-detail {
+    border-radius: 4px;
+    border-bottom-right-radius: 20%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0px;
+    padding: 60px 40px 60px 40px;
+    margin-top: 32px;
+    box-shadow: 17px 17px 33px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 40px;
+
+    .fa {
+      font-size: 42px;
+    }
+  }
+
+  .services-detail:hover {
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+  }
+}
+
+#services {
+  h2 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    margin: 40px;
+    border-bottom: solid 3px rgb(146, 0, 0);
+    display: inline-block;
+    border-radius: 10%;
+    color: rgb(216, 216, 216)
+  }
+}
+
+#gloves {
+  float: none;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+/* footer */
+.footer-section {
+  background: #000;
+  padding: 30px 10px;
+  color: #f8f8f8;
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    color: #ffffff;
+  }
+}
+
+.insta {
+  float: left;
+  max-width: 36px;
+  margin-right: -3px;
+}
+
+.fb {
+  float: left;
+  max-width: 33px;
+  margin-left: 20px;
+}
+
+/* media queries */
+@media only screen and (max-width: 770px) {
+  .aboutext {
+    padding: 0 30px;
+
+  }
+
+  .abm {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #top {
+    h1 {
+      font-size: 60px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+}

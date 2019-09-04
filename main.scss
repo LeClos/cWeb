@@ -9,7 +9,6 @@ html {
   overflow-x: hidden;
 }
 
-
 .hero-text {
   text-align: center;
   position: absolute;
@@ -39,7 +38,8 @@ html {
 }
 
 .hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/conb.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("images/conb.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,14 +56,15 @@ html {
   p {
     font-size: 50px;
     text-shadow: 5px 5px 20px #000000;
-
-
   }
 }
 
 #home {
   box-shadow: 5px 9px 14px black;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
+  color: #000;
+  background-color: #ffffff;
+  border: 0px;
 }
 
 /* about me section */
@@ -78,14 +79,13 @@ html {
   font-family: sans-serif;
   font-size: 20px;
   padding: 5px;
-
 }
 
 #myabout {
   font-size: 38px;
   padding-top: 20px;
   padding-left: 5px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 // nav
@@ -96,26 +96,24 @@ html {
   z-index: 99;
 
   .navbar-brand {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     color: white;
     border-bottom: solid 2px white;
     border-radius: 15%;
   }
-
 }
 
 .nav-link {
   color: darkgray;
   font-family: sans-serif;
   font-weight: bold;
-
 }
 
 /* gallary */
 
 #galhead {
   border-bottom: solid 3px rgb(122, 0, 0);
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   display: inline-block;
   border-radius: 10%;
   color: rgb(202, 202, 202);
@@ -125,11 +123,10 @@ html {
   box-shadow: -1px 5px 24px 13px rgba(0, 0, 0, 0.93);
 }
 
-#thumbnail1 {
+.thumbnail1 {
   width: 100%;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
-
 }
 
 #photos {
@@ -148,18 +145,17 @@ html {
 #statsection {
   h1 {
     font-size: 50px;
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     margin-bottom: 40px;
     border-bottom: solid 3px rgb(68, 0, 0);
     display: inline-block;
     border-radius: 10%;
-    color: rgb(8, 8, 8)
+    color: rgb(8, 8, 8);
   }
-
   .row {
     font-size: 34px;
     color: rgb(209, 209, 209);
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     box-shadow: 5px 9px 14px black;
   }
 
@@ -170,7 +166,7 @@ html {
 
 #future {
   font-size: 50px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   border-bottom: solid 3px rgb(68, 0, 0);
   display: inline-block;
   border-radius: 10%;
@@ -187,7 +183,6 @@ html {
     margin-left: 0px;
   }
 }
-
 
 .services-section {
   .services-detail {
@@ -218,12 +213,12 @@ html {
 #services {
   h2 {
     font-size: 50px;
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     margin: 40px;
     border-bottom: solid 3px rgb(146, 0, 0);
     display: inline-block;
     border-radius: 10%;
-    color: rgb(216, 216, 216)
+    color: rgb(216, 216, 216);
   }
 }
 
@@ -264,7 +259,6 @@ html {
 @media only screen and (max-width: 770px) {
   .aboutext {
     padding: 0 30px;
-
   }
 
   .abm {
@@ -281,5 +275,4 @@ html {
       font-size: 20px;
     }
   }
-
 }

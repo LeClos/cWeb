@@ -17,11 +17,13 @@
 
 <body>
 
+
+
   <!-- hero image of connor -->
   <div class="hero-image1" id="top">
     <div class="hero-text">
       <h1>Connor O'Reilly</h1>
-      <p>K1 Fighter</p>
+      <p><u>K1 Fighter</u></p>
 
       <a href="#about" class="btn btn-primary" role="button" id="home">Welcome to my page</a>
         <div id="about"></div>
@@ -29,8 +31,11 @@
     </div>
   </div>
 
+ <!-- scroll to top button -->
+ <button onclick="topFunction()" id="scroll" title="Go to top">Top</button>
+  
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center navbar-fixed-top sticky" id="myNav">
+  <nav class="navbar navbar-expand-md navbar-dark justify-content-center navbar-fixed-top sticky" id="myNav">
     <a class="navbar-brand" href="#">Connor
       O'Reilly</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -42,19 +47,15 @@
           <a class="nav-link" href="#top">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#myabout">About</a>
+          <a class="nav-link" href=".aboutext">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#gallary">Fight
+          <a class="nav-link" href="#portfolio">Fight
             Gallary</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#ffights">Future
+          <a class="nav-link" href="#future">Future
             fights</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skilsz">My
-            Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#foota">Social
@@ -90,7 +91,7 @@
   </section>
 
   <!-- Fight gallary -->
-  <div style="background-color: rgb(20, 20, 20)" id="gallary">
+  <div style="background-color: rgb(14, 14, 14)" id="gallary">
 
     <hr style="border: solid 2px black; width: 80%; margin-top: 0px; margin-bottom: 40px;">
 
@@ -172,20 +173,21 @@
   </div>
 
   <!-- Future Fights -->
+  <div style="background-color: rgb(29, 29, 29);">
   <section>
     <div class="row">
       <div class="col-sm-12">
         <div class="section-title" style="text-align: center">
           <h2 id="future">
             Future fights</h2>
-          <p class="fights">Coming soon<br>This will be where all information regarding my
+          <p class="fights">This will be where all information regarding my
             future fights will be</p>
         </div>
       </div>
     </div>
   </section>
 
-  <hr style="border: solid 1.5px black; width: 80%; margin-top: 40px; margin-bottom: 40px;">
+  <hr style="border: solid 2px black; width: 80%; margin-top: 40px; margin-bottom: 40px;">
 
   <!-- Statistics section -->
   <div class="container" id="statsection">
@@ -209,6 +211,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <!-- Footer Start -->
   <footer class="footer-section" id="foota">
@@ -229,6 +232,6 @@
     </div>
 
   </footer>
-
+<script src="./script.js"></script>
 </body>
 </html>
